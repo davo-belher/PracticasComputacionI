@@ -5,6 +5,7 @@
  ===============================*/
 
 #include <iostream>
+#include "cmath"
 using namespace std;
 
 int main() {
@@ -35,7 +36,10 @@ int main() {
         case '/':
             cout << x1 / x2 << endl;
             break;
-
+        case '%':
+            a= fmod(x1,x2);
+            cout << a << endl;
+            break;
         default:
             cout << "operacion invalida";
             break;
