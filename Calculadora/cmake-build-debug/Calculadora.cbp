@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/Calculadora/main.cpp">
+		<Unit filename="C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/Calculadora/Calculadora.cpp">
 			<Option target="Calculadora"/>
 		</Unit>
 		<Unit filename="C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/Calculadora/CMakeLists.txt">

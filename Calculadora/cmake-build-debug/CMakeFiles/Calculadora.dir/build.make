@@ -53,10 +53,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\David Omar\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Users\David Omar\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Users\David Omar\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Users\David Omar\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -76,27 +76,27 @@ include CMakeFiles/Calculadora.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Calculadora.dir/flags.make
 
-CMakeFiles/Calculadora.dir/main.cpp.obj: CMakeFiles/Calculadora.dir/flags.make
-CMakeFiles/Calculadora.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\Calculadora\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Calculadora.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Calculadora.dir\main.cpp.obj -c "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\Calculadora\main.cpp"
+CMakeFiles/Calculadora.dir/Calculadora.cpp.obj: CMakeFiles/Calculadora.dir/flags.make
+CMakeFiles/Calculadora.dir/Calculadora.cpp.obj: ../Calculadora.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\Calculadora\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Calculadora.dir/Calculadora.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Calculadora.dir\Calculadora.cpp.obj -c "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\Calculadora\Calculadora.cpp"
 
-CMakeFiles/Calculadora.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Calculadora.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\Calculadora\main.cpp" > CMakeFiles\Calculadora.dir\main.cpp.i
+CMakeFiles/Calculadora.dir/Calculadora.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Calculadora.dir/Calculadora.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\Calculadora\Calculadora.cpp" > CMakeFiles\Calculadora.dir\Calculadora.cpp.i
 
-CMakeFiles/Calculadora.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Calculadora.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\Calculadora\main.cpp" -o CMakeFiles\Calculadora.dir\main.cpp.s
+CMakeFiles/Calculadora.dir/Calculadora.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Calculadora.dir/Calculadora.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\Calculadora\Calculadora.cpp" -o CMakeFiles\Calculadora.dir\Calculadora.cpp.s
 
 # Object files for target Calculadora
 Calculadora_OBJECTS = \
-"CMakeFiles/Calculadora.dir/main.cpp.obj"
+"CMakeFiles/Calculadora.dir/Calculadora.cpp.obj"
 
 # External object files for target Calculadora
 Calculadora_EXTERNAL_OBJECTS =
 
-Calculadora.exe: CMakeFiles/Calculadora.dir/main.cpp.obj
+Calculadora.exe: CMakeFiles/Calculadora.dir/Calculadora.cpp.obj
 Calculadora.exe: CMakeFiles/Calculadora.dir/build.make
 Calculadora.exe: CMakeFiles/Calculadora.dir/linklibs.rsp
 Calculadora.exe: CMakeFiles/Calculadora.dir/objects1.rsp

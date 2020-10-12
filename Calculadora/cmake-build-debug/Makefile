@@ -58,10 +58,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\David Omar\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Users\David Omar\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Users\David Omar\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Users\David Omar\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\Prac
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Users\David Omar\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Users\David Omar\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Users\David Omar\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Users\David Omar\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -142,32 +142,32 @@ Calculadora/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculadora.dir\build.make CMakeFiles/Calculadora.dir/build
 .PHONY : Calculadora/fast
 
-main.obj: main.cpp.obj
+Calculadora.obj: Calculadora.cpp.obj
 
-.PHONY : main.obj
+.PHONY : Calculadora.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculadora.dir\build.make CMakeFiles/Calculadora.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+Calculadora.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculadora.dir\build.make CMakeFiles/Calculadora.dir/Calculadora.cpp.obj
+.PHONY : Calculadora.cpp.obj
 
-main.i: main.cpp.i
+Calculadora.i: Calculadora.cpp.i
 
-.PHONY : main.i
+.PHONY : Calculadora.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculadora.dir\build.make CMakeFiles/Calculadora.dir/main.cpp.i
-.PHONY : main.cpp.i
+Calculadora.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculadora.dir\build.make CMakeFiles/Calculadora.dir/Calculadora.cpp.i
+.PHONY : Calculadora.cpp.i
 
-main.s: main.cpp.s
+Calculadora.s: Calculadora.cpp.s
 
-.PHONY : main.s
+.PHONY : Calculadora.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculadora.dir\build.make CMakeFiles/Calculadora.dir/main.cpp.s
-.PHONY : main.cpp.s
+Calculadora.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculadora.dir\build.make CMakeFiles/Calculadora.dir/Calculadora.cpp.s
+.PHONY : Calculadora.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Calculadora
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Calculadora.obj
+	@echo ... Calculadora.i
+	@echo ... Calculadora.s
 .PHONY : help
 
 
