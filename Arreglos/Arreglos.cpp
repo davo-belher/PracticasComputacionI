@@ -54,17 +54,33 @@ void ImprimirArreglo(array<float, LEN> arreglo)
 // Llena un arreglo de tamaño LEN y lo "regresa" como resultado
 array<float, LEN> LlenarArreglo()
 {
-    // TODO
+    array<float, LEN> A;
+    float a;
+    for (int i = 0; i < LEN; i++){
+        cout << "ingrese el valor de la posicion " << i+1 << endl;
+        a = 0;
+        cin >> a;
+        A[i] = a;
+    }
+    return A;
+
 }
 
 // Multiplica cada elemento del arreglo 'arreglo' por el factor 'mult'
 array<float, LEN> MultiplicarArreglo(array<float, LEN> arreglo, float multiplo)
 {
-    // TODO
+    for (int i = 0; i < LEN; i++){
+        arreglo[i] = arreglo[i]*multiplo;
+    }
+    return arreglo;
 }
 
 // Suma elemento a elemento los arreglos 'arr1' y 'arr2' y regresa el arreglo resultante
 array<float, LEN> SumarArreglos(array<float, LEN> arr1, array<float, LEN> arr2)
 {
-    // TODO
+    array<float, LEN> A;
+    for (int i = 0; i < LEN; i++){
+        A[i] = arr1[i]+arr2[i];
+    }
+    return A;
 }
