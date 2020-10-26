@@ -80,14 +80,13 @@ No regresa ningún valor.
 template <typename matriz>
 void ImprimirSolucion(matriz & miMatriz)
 {
-    int variable = miMatriz.size();
-    float val[variable];
-    int j= variable+1;
-    for (int i = 0; i< variable; i++){
-        val[i]= miMatriz[i][j]/miMatriz[i][i];
-        cout << "val" << i << "= " << val[i] << endl;
+    int variables = miMatriz.size();
+    for (int i = 0; i < variables; i++) {
+        cout << "[ ";
+        for (int j = 0; j < variables + 1; j++)
+            cout << miMatriz[i][j]/miMatriz[i][i] << '\t';
+        cout << "]\n";
     }
-
 }
 
 /*
