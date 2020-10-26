@@ -80,7 +80,14 @@ No regresa ningún valor.
 template <typename matriz>
 void ImprimirSolucion(matriz & miMatriz)
 {
-    //TODO
+    int variable = miMatriz.size();
+    float val[variable];
+    int j= variable+1;
+    for (int i = 0; i< variable; i++){
+        val[i]= miMatriz[i][j]/miMatriz[i][i];
+        cout << "val" << i << "= " << val[i] << endl;
+    }
+
 }
 
 /*
@@ -90,5 +97,16 @@ No regresa ningún valor.
 template <typename matriz>
 void GaussJordan(matriz & miMatriz)
 {
-    //TODO
+    float b;
+    int variables = miMatriz.size();
+    for(int j = 0; j <variables;j++){
+        for(int i = 0; i < variables;i++){
+            if( i!=j){
+                b = miMatriz[i][j] / miMatriz[j][j];
+                for (int k=0; k< variables+1;k++){
+                    miMatriz[i][k] = miMatriz[i][k] - b*miMatriz[j][k];
+                }
+            }
+        }
+    }
 }
