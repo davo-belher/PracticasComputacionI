@@ -81,14 +81,11 @@ template <typename matriz>
 void ImprimirSolucion(matriz & miMatriz)
 {
     int variables = miMatriz.size();
+    int j =variables;
     for (int i = 0; i < variables; i++) {
-        cout << "[ ";
-        for (int j = 0; j < variables + 1; j++)
-            cout << miMatriz[i][j]/miMatriz[i][i] << '\t';
-        cout << "]\n";
+        cout << "x[" << i << "]= (" << miMatriz[i][j]/miMatriz[i][i] << ")\n";
     }
 }
-
 /*
 Implementa el algoritmo de Gauss-Jordan sobre 'miMatriz', finalizando en ella la solución del algoritmo.
 No regresa ningún valor.
