@@ -142,32 +142,32 @@ GaussJordan/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GaussJordan.dir\build.make CMakeFiles/GaussJordan.dir/build
 .PHONY : GaussJordan/fast
 
-main.obj: main.cpp.obj
+GaussJordan.obj: GaussJordan.cpp.obj
 
-.PHONY : main.obj
+.PHONY : GaussJordan.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GaussJordan.dir\build.make CMakeFiles/GaussJordan.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+GaussJordan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GaussJordan.dir\build.make CMakeFiles/GaussJordan.dir/GaussJordan.cpp.obj
+.PHONY : GaussJordan.cpp.obj
 
-main.i: main.cpp.i
+GaussJordan.i: GaussJordan.cpp.i
 
-.PHONY : main.i
+.PHONY : GaussJordan.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GaussJordan.dir\build.make CMakeFiles/GaussJordan.dir/main.cpp.i
-.PHONY : main.cpp.i
+GaussJordan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GaussJordan.dir\build.make CMakeFiles/GaussJordan.dir/GaussJordan.cpp.i
+.PHONY : GaussJordan.cpp.i
 
-main.s: main.cpp.s
+GaussJordan.s: GaussJordan.cpp.s
 
-.PHONY : main.s
+.PHONY : GaussJordan.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GaussJordan.dir\build.make CMakeFiles/GaussJordan.dir/main.cpp.s
-.PHONY : main.cpp.s
+GaussJordan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GaussJordan.dir\build.make CMakeFiles/GaussJordan.dir/GaussJordan.cpp.s
+.PHONY : GaussJordan.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... GaussJordan
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... GaussJordan.obj
+	@echo ... GaussJordan.i
+	@echo ... GaussJordan.s
 .PHONY : help
 
 

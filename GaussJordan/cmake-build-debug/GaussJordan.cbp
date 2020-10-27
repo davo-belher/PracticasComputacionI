@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/GaussJordan/main.cpp">
+		<Unit filename="C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/GaussJordan/GaussJordan.cpp">
 			<Option target="GaussJordan"/>
 		</Unit>
 		<Unit filename="C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/GaussJordan/CMakeLists.txt">

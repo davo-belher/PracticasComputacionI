@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/GaussJordan/GaussJordan.cpp
+iostream
+-
+array
+-
+

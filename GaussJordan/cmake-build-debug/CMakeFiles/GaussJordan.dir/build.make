@@ -76,27 +76,27 @@ include CMakeFiles/GaussJordan.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/GaussJordan.dir/flags.make
 
-CMakeFiles/GaussJordan.dir/main.cpp.obj: CMakeFiles/GaussJordan.dir/flags.make
-CMakeFiles/GaussJordan.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\GaussJordan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GaussJordan.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GaussJordan.dir\main.cpp.obj -c "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\GaussJordan\main.cpp"
+CMakeFiles/GaussJordan.dir/GaussJordan.cpp.obj: CMakeFiles/GaussJordan.dir/flags.make
+CMakeFiles/GaussJordan.dir/GaussJordan.cpp.obj: ../GaussJordan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\GaussJordan\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GaussJordan.dir/GaussJordan.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GaussJordan.dir\GaussJordan.cpp.obj -c "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\GaussJordan\GaussJordan.cpp"
 
-CMakeFiles/GaussJordan.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GaussJordan.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\GaussJordan\main.cpp" > CMakeFiles\GaussJordan.dir\main.cpp.i
+CMakeFiles/GaussJordan.dir/GaussJordan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GaussJordan.dir/GaussJordan.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\GaussJordan\GaussJordan.cpp" > CMakeFiles\GaussJordan.dir\GaussJordan.cpp.i
 
-CMakeFiles/GaussJordan.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GaussJordan.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\GaussJordan\main.cpp" -o CMakeFiles\GaussJordan.dir\main.cpp.s
+CMakeFiles/GaussJordan.dir/GaussJordan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GaussJordan.dir/GaussJordan.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\GaussJordan\GaussJordan.cpp" -o CMakeFiles\GaussJordan.dir\GaussJordan.cpp.s
 
 # Object files for target GaussJordan
 GaussJordan_OBJECTS = \
-"CMakeFiles/GaussJordan.dir/main.cpp.obj"
+"CMakeFiles/GaussJordan.dir/GaussJordan.cpp.obj"
 
 # External object files for target GaussJordan
 GaussJordan_EXTERNAL_OBJECTS =
 
-GaussJordan.exe: CMakeFiles/GaussJordan.dir/main.cpp.obj
+GaussJordan.exe: CMakeFiles/GaussJordan.dir/GaussJordan.cpp.obj
 GaussJordan.exe: CMakeFiles/GaussJordan.dir/build.make
 GaussJordan.exe: CMakeFiles/GaussJordan.dir/linklibs.rsp
 GaussJordan.exe: CMakeFiles/GaussJordan.dir/objects1.rsp
