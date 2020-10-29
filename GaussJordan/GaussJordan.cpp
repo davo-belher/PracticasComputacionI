@@ -83,7 +83,7 @@ void ImprimirSolucion(matriz & miMatriz)
     int variables = miMatriz.size();
     int j =variables;
     for (int i = 0; i < variables; i++) {
-        cout << "x[" << i << "]= (" << miMatriz[i][j]/miMatriz[i][i] << ")\n";
+        cout << "x" << i << " = " << miMatriz[i][j]/miMatriz[i][i] << "\n";
     }
 }
 /*
