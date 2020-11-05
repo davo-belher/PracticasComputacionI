@@ -169,32 +169,32 @@ Punto.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Puntos.dir\build.make CMakeFiles/Puntos.dir/Punto.cpp.s
 .PHONY : Punto.cpp.s
 
-main.obj: main.cpp.obj
+Puntos.obj: Puntos.cpp.obj
 
-.PHONY : main.obj
+.PHONY : Puntos.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Puntos.dir\build.make CMakeFiles/Puntos.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+Puntos.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Puntos.dir\build.make CMakeFiles/Puntos.dir/Puntos.cpp.obj
+.PHONY : Puntos.cpp.obj
 
-main.i: main.cpp.i
+Puntos.i: Puntos.cpp.i
 
-.PHONY : main.i
+.PHONY : Puntos.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Puntos.dir\build.make CMakeFiles/Puntos.dir/main.cpp.i
-.PHONY : main.cpp.i
+Puntos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Puntos.dir\build.make CMakeFiles/Puntos.dir/Puntos.cpp.i
+.PHONY : Puntos.cpp.i
 
-main.s: main.cpp.s
+Puntos.s: Puntos.cpp.s
 
-.PHONY : main.s
+.PHONY : Puntos.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Puntos.dir\build.make CMakeFiles/Puntos.dir/main.cpp.s
-.PHONY : main.cpp.s
+Puntos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Puntos.dir\build.make CMakeFiles/Puntos.dir/Puntos.cpp.s
+.PHONY : Puntos.cpp.s
 
 # Help Target
 help:
@@ -208,9 +208,9 @@ help:
 	@echo ... Punto.obj
 	@echo ... Punto.i
 	@echo ... Punto.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Puntos.obj
+	@echo ... Puntos.i
+	@echo ... Puntos.s
 .PHONY : help
 
 

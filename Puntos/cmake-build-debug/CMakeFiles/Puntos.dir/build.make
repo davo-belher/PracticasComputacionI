@@ -76,18 +76,18 @@ include CMakeFiles/Puntos.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Puntos.dir/flags.make
 
-CMakeFiles/Puntos.dir/main.cpp.obj: CMakeFiles/Puntos.dir/flags.make
-CMakeFiles/Puntos.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\Puntos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Puntos.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Puntos.dir\main.cpp.obj -c "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\Puntos\main.cpp"
+CMakeFiles/Puntos.dir/Puntos.cpp.obj: CMakeFiles/Puntos.dir/flags.make
+CMakeFiles/Puntos.dir/Puntos.cpp.obj: ../Puntos.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\Puntos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Puntos.dir/Puntos.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Puntos.dir\Puntos.cpp.obj -c "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\Puntos\Puntos.cpp"
 
-CMakeFiles/Puntos.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Puntos.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\Puntos\main.cpp" > CMakeFiles\Puntos.dir\main.cpp.i
+CMakeFiles/Puntos.dir/Puntos.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Puntos.dir/Puntos.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\Puntos\Puntos.cpp" > CMakeFiles\Puntos.dir\Puntos.cpp.i
 
-CMakeFiles/Puntos.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Puntos.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\Puntos\main.cpp" -o CMakeFiles\Puntos.dir\main.cpp.s
+CMakeFiles/Puntos.dir/Puntos.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Puntos.dir/Puntos.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\David Omar\Desktop\Tercer sem Unam\Computacion\PracticasComputacionI\Puntos\Puntos.cpp" -o CMakeFiles\Puntos.dir\Puntos.cpp.s
 
 CMakeFiles/Puntos.dir/Punto.cpp.obj: CMakeFiles/Puntos.dir/flags.make
 CMakeFiles/Puntos.dir/Punto.cpp.obj: ../Punto.cpp
@@ -104,13 +104,13 @@ CMakeFiles/Puntos.dir/Punto.cpp.s: cmake_force
 
 # Object files for target Puntos
 Puntos_OBJECTS = \
-"CMakeFiles/Puntos.dir/main.cpp.obj" \
+"CMakeFiles/Puntos.dir/Puntos.cpp.obj" \
 "CMakeFiles/Puntos.dir/Punto.cpp.obj"
 
 # External object files for target Puntos
 Puntos_EXTERNAL_OBJECTS =
 
-Puntos.exe: CMakeFiles/Puntos.dir/main.cpp.obj
+Puntos.exe: CMakeFiles/Puntos.dir/Puntos.cpp.obj
 Puntos.exe: CMakeFiles/Puntos.dir/Punto.cpp.obj
 Puntos.exe: CMakeFiles/Puntos.dir/build.make
 Puntos.exe: CMakeFiles/Puntos.dir/linklibs.rsp

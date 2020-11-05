@@ -3,21 +3,27 @@
 //
 
 #include "Punto.h"
-float Punto2D::SetPosicion(float x, float y) {
-    x=temp1;
-    y=temp2;
+void Punto2D::SetPosicion(float x, float y) {
+corx=x;
+cory=y;
+
 }
 void Punto2D::Trasladar(float temp1, float temp2) {
-    x =+ temp1;
-    y =+ temp2;
+    corx = corx + temp1;
+    cory = cory + temp2;
 }
 void Punto2D::RotarRespectoAlOrigen(float temp1) {
-    int n{2};
-    int A[n][n];
-    for(int i =0; i < n; i++){
-        for (int j = 0; j < n;j++){
-
-        }
-    }
-
+    float orgx=corx;
+    corx= corx*cos(temp1*3.14159/180)-cory*sin(temp1*3.14159/180);
+    cory= orgx*sin(temp1*3.14159/180)+cory*cos(temp1*3.14159/180);
+}
+float Punto2D::GetX() {
+    return corx;
+}
+float Punto2D::GetY() {
+    return cory;
+}
+void Punto2D::Escalar(float temp1, float temp2) {
+corx = corx*temp1;
+cory = cory*temp2;
 }
