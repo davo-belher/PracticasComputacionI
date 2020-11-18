@@ -1,0 +1,3 @@
+C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/CargaElectrica/cmake-build-debug/CMakeFiles/CargaElectrica.dir
+C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/CargaElectrica/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/CargaElectrica/cmake-build-debug/CMakeFiles/rebuild_cache.dir
