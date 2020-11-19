@@ -3,3 +3,11 @@
 //
 
 #include "Grupo.h"
+#include <array>
+
+int Grupo::getCharge(float ph) {
+    return carga+(ph<=pka);
+}
+
+
+

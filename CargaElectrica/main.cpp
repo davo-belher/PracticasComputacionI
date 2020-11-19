@@ -72,5 +72,9 @@ void PedirpH(float& ph)
 template <typename grupos>
 int CalcularCargaApH(float& ph, grupos todosGrupos)
 {
-    //TODO
+    int sum=0;
+    for (int i =0; i < todosGrupos.size();i++){
+        sum+=todosGrupos[i].getCharge(ph);
+    }
+    return sum;
 }
