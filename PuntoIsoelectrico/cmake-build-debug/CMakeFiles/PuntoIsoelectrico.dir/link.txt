@@ -1,0 +1,3 @@
+"C:\Users\David Omar\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\PuntoIsoelectrico.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\PuntoIsoelectrico.dir/objects.a @CMakeFiles\PuntoIsoelectrico.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\PuntoIsoelectrico.dir/objects.a -Wl,--no-whole-archive  -o PuntoIsoelectrico.exe -Wl,--out-implib,libPuntoIsoelectrico.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PuntoIsoelectrico.dir\linklibs.rsp
