@@ -11,7 +11,14 @@ using namespace std;
 
 class Molecula {
 public:
+    Molecula(string nomb){nombre=nomb; numGrups=0;}
+    int netCharge(float ph);
+    float CalcularPuntoIsoelectrico();
+    void AgregarGrupo(Grupo x);
 private:
+string nombre;
+int numGrups;
+vector <Grupo> grupos;
 
 };
 

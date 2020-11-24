@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/PuntoIsoelectrico/Grupo.h
+string
+-
+
+C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/PuntoIsoelectrico/Molecula.cpp
+Molecula.h
+C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/PuntoIsoelectrico/Molecula.h
+
+C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/PuntoIsoelectrico/Molecula.h
+string
+-
+vector
+-
+Grupo.h
+C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/PuntoIsoelectrico/Grupo.h
+

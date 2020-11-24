@@ -8,6 +8,8 @@
 int Grupo::getCharge(float ph) {
     return carga+(ph<=pka);
 }
-
+float Grupo::getpka() {
+    return pka;
+}
 
 

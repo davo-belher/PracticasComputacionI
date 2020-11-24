@@ -18,6 +18,7 @@ public:
     // cargar los datos del grupo a la instancia
     Grupo(string nomb, float pk, int car) {nombre=nomb; pka= pk; carga=car;}
     int getCharge(float ph);
+    float getpka();
 
 };
 
