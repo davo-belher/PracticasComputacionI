@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/Almacen/Almacen.cpp
+iostream
+-
+string
+-
+array
+-
+Bodega.h
+C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/Almacen/Bodega.h
+
+C:/Users/David Omar/Desktop/Tercer sem Unam/Computacion/PracticasComputacionI/Almacen/Bodega.h
+string
+-
+vector
+-
+
